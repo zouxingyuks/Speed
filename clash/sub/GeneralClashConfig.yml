@@ -262,6 +262,7 @@ cfw-bypass:
   - "*.snapdrop.net"
   # blogs
   - "*.anubis.cafe"
+  - "api.anubis.cab"
   # CN域名直连(中国|公司|网络)
   - "*.cn"
   - "*.xn--fiqs8s"
