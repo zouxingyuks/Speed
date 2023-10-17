@@ -1,5 +1,4 @@
 # 内容：Bing
 # 数量：2条
-DOMAIN-KEYWORD,bing
-DOMAIN-KEYWORD,bing.com
-DOMAIN-KEYWORD,bing.net
+DOMAIN-SUFFIX,bing.com
+DOMAIN-SUFFIX,bing.net
