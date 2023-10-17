@@ -260,6 +260,8 @@ cfw-bypass:
   - "*.zhenguanyu.biz"
   - "*.zhenguanyu.com"
   - "*.snapdrop.net"
+  # blogs
+  - "*.anubis.cafe"
   # CN域名直连(中国|公司|网络)
   - "*.cn"
   - "*.xn--fiqs8s"
