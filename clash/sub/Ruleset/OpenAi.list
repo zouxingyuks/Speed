@@ -1,3 +1,5 @@
 # Openai
 DOMAIN-SUFFIX,openaiapi-site.azureedge.net
 DOMAIN-SUFFIX,chatgpt.com
+DOMAIN-SUFFIX,s.gravatar.com
+DOMAIN-SUFFIX,cdn.oaistatic.com
