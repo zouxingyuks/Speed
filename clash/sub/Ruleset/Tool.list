@@ -1,6 +1,5 @@
 # 内容：工具站合集
-# 数量：2条
+# 数量：3条
 DOMAIN-SUFFIX,tailspark.co
 DOMAIN-KEYWORD,parsec
-DoMAIN-SUFFIX,perplexity.ai
-DoMAIN-SUFFIX,www.perplexity.ai
+DOMAIN-SUFFIX,perplexity.ai
