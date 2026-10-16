@@ -1,4 +1,6 @@
 # Go 下载源
 DOMAIN-SUFFIX,goproxy.io
 DOMAIN-SUFFIX,gocenter.io
+DOMAIN-SUFFIX,proxy.golang.org
+DOMAIN-SUFFIX,sum.golang.org
 DOMAIN-KEYWORD,golang.org
