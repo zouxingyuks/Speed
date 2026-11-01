@@ -1,6 +1,75 @@
-# Openai
-DOMAIN-SUFFIX,openaiapi-site.azureedge.net
+# OpenAI / ChatGPT / Codex / Sora / Prism
+# 覆盖优先：共享服务及关键词规则可能使其他网站的相关流量进入本分组。
+# 域名会持续变化；语音直连 IP 不在本域名清单覆盖范围内。
+# 官方网络要求：https://help.openai.com/en/articles/9247338
+# 社区补充：https://github.com/v2fly/domain-list-community/blob/master/data/openai
+# 社区补充：https://github.com/ACL4SSR/ACL4SSR/blob/master/Clash/Ruleset/OpenAi.list
+# 社区补充：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/OpenAI/OpenAI.list
+
+# 官方服务、入口与产品相关域名（包括各级子域）
+DOMAIN-SUFFIX,chat.com
 DOMAIN-SUFFIX,chatgpt.com
-DOMAIN-SUFFIX,s.gravatar.com
-DOMAIN-SUFFIX,cdn.oaistatic.com
+DOMAIN-SUFFIX,chatgpt.site
+DOMAIN-SUFFIX,crixet.com
+DOMAIN-SUFFIX,oaistatic.com
+DOMAIN-SUFFIX,oaistatsig.com
+DOMAIN-SUFFIX,oaiusercontent.com
+DOMAIN-SUFFIX,openai.com
+DOMAIN-SUFFIX,openai.org
+DOMAIN-SUFFIX,sora.com
+
+# CDN、对象存储与资源分发
+DOMAIN-SUFFIX,openai.com.cdn.cloudflare.net
+DOMAIN,cdn.openaimerge.com
+DOMAIN,openaiapi-site.azureedge.net
+DOMAIN,openaiassets.blob.core.windows.net
+DOMAIN,openaicom-api-bdcpf8c6d2e9atf6.z01.azurefd.net
+DOMAIN,openaicom.imgix.net
+DOMAIN,openaicomproductionae4b.blob.core.windows.net
+DOMAIN,production-openaicom-storage.azureedge.net
+
+# 登录、身份认证与验证码
+DOMAIN-SUFFIX,auth0.com
+DOMAIN-SUFFIX,client-api.arkoselabs.com
+DOMAIN-SUFFIX,identrust.com
+DOMAIN,openai-api.arkoselabs.com
+DOMAIN-SUFFIX,challenges.cloudflare.com
+DOMAIN,cdn.workos.com
+DOMAIN,forwarder.workos.com
+DOMAIN,frontend-apps-multi-region.workos.com
+DOMAIN,images.workoscdn.com
+DOMAIN,setup.workos.com
+DOMAIN,workos.imgix.net
+DOMAIN,humb.apple.com
+DOMAIN,register.appattest.apple.com
+
+# 支付、客服、邮件链接与头像
+DOMAIN-SUFFIX,stripe.com
+DOMAIN-SUFFIX,intercom.io
+DOMAIN-SUFFIX,intercomcdn.com
+DOMAIN-SUFFIX,ct.sendgrid.net
+DOMAIN,s.gravatar.com
+
+# 功能开关、搜索、统计与错误上报（含社区收录的历史依赖）
+DOMAIN-SUFFIX,algolia.net
+DOMAIN-SUFFIX,api.statsig.com
+DOMAIN-SUFFIX,events.statsigapi.net
+DOMAIN-SUFFIX,featuregates.org
+DOMAIN-SUFFIX,launchdarkly.com
+DOMAIN-SUFFIX,observeit.net
+DOMAIN-SUFFIX,segment.io
+DOMAIN-SUFFIX,sentry.io
+DOMAIN,browser-intake-datadoghq.com
+DOMAIN,rum.browser-intake-datadoghq.com
+DOMAIN,openai.qualtrics.com
+DOMAIN,static.cloudflareinsights.com
+
+# 实时语音与 TURN 中继
+DOMAIN-SUFFIX,chatgpt.livekit.cloud
+DOMAIN-SUFFIX,host.livekit.cloud
+DOMAIN-SUFFIX,turn.livekit.cloud
+
+# 动态主机名兜底（包括 chatgpt-async-webps-prod-*.webpubsub.azure.com）
+# 关键词也会匹配第三方含 openai / chatgpt 的域名，不代表这些域名为官方所有。
+DOMAIN-KEYWORD,openai
 DOMAIN-KEYWORD,chatgpt
