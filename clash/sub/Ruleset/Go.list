@@ -1,6 +1,12 @@
-# Go 下载源
+# Go 官方服务与下载源
+# 官方模块代理、校验数据库、索引、官网与包文档
+DOMAIN-SUFFIX,golang.org
+DOMAIN-SUFFIX,go.dev
+
+# 安装包与模块 ZIP 下载重定向
+# 共享主机：其他使用这些主机的下载也会进入本规则所属分组。
+DOMAIN,dl.google.com
+DOMAIN,storage.googleapis.com
+
+# 第三方模块镜像
 DOMAIN-SUFFIX,goproxy.io
-DOMAIN-SUFFIX,gocenter.io
-DOMAIN-SUFFIX,proxy.golang.org
-DOMAIN-SUFFIX,sum.golang.org
-DOMAIN-KEYWORD,golang.org
