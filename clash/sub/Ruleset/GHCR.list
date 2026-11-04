@@ -1,0 +1,5 @@
+# GitHub Container Registry
+DOMAIN-SUFFIX,ghcr.io
+# 镜像层下载与旧版 Docker Registry 入口
+DOMAIN,pkg-containers.githubusercontent.com
+DOMAIN,docker.pkg.github.com
