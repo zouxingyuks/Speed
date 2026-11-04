@@ -1,0 +1,5 @@
+# Docker 官方服务
+# 官网、Docker Hub、认证、镜像仓库与官方域名下的下载 CDN
+DOMAIN-SUFFIX,docker.com
+DOMAIN-SUFFIX,docker.io
+DOMAIN-SUFFIX,dockerhub.com

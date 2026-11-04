@@ -1,0 +1,3 @@
+# Google Container Registry（含 Artifact Registry 承接的 gcr.io 仓库）
+# 覆盖 gcr.io、us.gcr.io、eu.gcr.io、asia.gcr.io 等子域名
+DOMAIN-SUFFIX,gcr.io
