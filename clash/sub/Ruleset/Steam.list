@@ -1,5 +1,5 @@
-# 内容：Steam
-# 数量：18条
+# 内容：Steam（商店、社区、客户端与下载）
+# 数量：23条
 DOMAIN,steambroadcast.akamaized.net
 DOMAIN,steamcommunity-a.akamaihd.net
 DOMAIN,steampipe.akamaized.net
@@ -9,13 +9,17 @@ DOMAIN,steamuserimages-a.akamaihd.net
 DOMAIN-SUFFIX,fanatical.com
 DOMAIN-SUFFIX,humblebundle.com
 DOMAIN-SUFFIX,playartifact.com
+DOMAIN-SUFFIX,s.team
 DOMAIN-SUFFIX,steam-chat.com
+DOMAIN-SUFFIX,steam.tv
 DOMAIN-SUFFIX,steamcommunity.com
 DOMAIN-SUFFIX,steamcontent.com
+DOMAIN-SUFFIX,steamdeck.com
 DOMAIN-SUFFIX,steamgames.com
 DOMAIN-SUFFIX,steampowered.com
 DOMAIN-SUFFIX,steamserver.net
 DOMAIN-SUFFIX,steamstat.us
 DOMAIN-SUFFIX,steamstatic.com
+DOMAIN-SUFFIX,steamusercontent.com
 DOMAIN-SUFFIX,underlords.com
 DOMAIN-SUFFIX,valvesoftware.com
