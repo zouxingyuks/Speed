@@ -1,0 +1,4 @@
+# 内容：OpenCode Go（同域官网、控制台与 Zen 一并分流）
+# 官方端点：https://opencode.ai/v2/docs/go#endpoints
+# 数量：1条
+DOMAIN-SUFFIX,opencode.ai
