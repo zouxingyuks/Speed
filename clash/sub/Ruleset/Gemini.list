@@ -1,0 +1,27 @@
+# Gemini / Google AI Studio / Gemini API
+# 参考：https://github.com/MetaCubeX/meta-rules-dat/blob/meta/geo/geosite/google-gemini.list
+# 参考：https://github.com/blackmatrix7/ios_rule_script/blob/master/rule/Clash/Gemini/Gemini.list
+# Google 登录与通用 API/CDN 保留在 Google 分组，不将共享域名整体归入 Gemini。
+
+# 网页入口、开发文档与专用静态资源
+DOMAIN-SUFFIX,gemini.google.com
+DOMAIN-SUFFIX,gemini.google
+DOMAIN-SUFFIX,bard.google.com
+DOMAIN-SUFFIX,aistudio.google.com
+DOMAIN-SUFFIX,ai.studio
+DOMAIN-SUFFIX,makersuite.google.com
+DOMAIN-SUFFIX,ai.google.dev
+DOMAIN-SUFFIX,generativeai.google
+DOMAIN-SUFFIX,gemini.gstatic.com
+
+# Gemini 与 AI Studio 专用 API
+DOMAIN,generativelanguage.googleapis.com
+DOMAIN,proactivebackend-pa.googleapis.com
+DOMAIN,alkalicore-pa.clients6.google.com
+DOMAIN,alkalimakersuite-pa.clients6.google.com
+DOMAIN,webchannel-alkalimakersuite-pa.clients6.google.com
+DOMAIN,geminiweb-pa.clients.google.com
+DOMAIN,geminiweb-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.clients.google.com
+DOMAIN,appsgenaiserver-pa.clients6.google.com
+DOMAIN,appsgenaiserver-pa.googleapis.com
