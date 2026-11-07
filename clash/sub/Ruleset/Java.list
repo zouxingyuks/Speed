@@ -1,0 +1,20 @@
+# Java 依赖仓库、构建工具与 OpenJDK 下载
+# Maven 官网与 Maven Central（含 repo.maven.apache.org）
+DOMAIN-SUFFIX,maven.apache.org
+DOMAIN,repo1.maven.org
+DOMAIN,search.maven.org
+DOMAIN,central.sonatype.com
+DOMAIN,central.sonatype.org
+
+# Gradle 官网、发行包与插件仓库
+# 包含 services.gradle.org、downloads.gradle.org、plugins.gradle.org
+# 插件下载会重定向至 plugins-artifacts.gradle.org
+DOMAIN-SUFFIX,gradle.org
+
+# OpenJDK 官网与构建下载，不匹配整个 java.net 或 oracle.com
+DOMAIN-SUFFIX,openjdk.org
+DOMAIN,jdk.java.net
+DOMAIN,download.java.net
+
+# Eclipse Temurin 官网与下载 API；GitHub 发行包由 Github.list 覆盖
+DOMAIN-SUFFIX,adoptium.net
