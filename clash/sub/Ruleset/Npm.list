@@ -1,0 +1,10 @@
+# npm、Node.js 与 Yarn 官方服务
+# npm 官网、文档、包元数据与包下载（registry.npmjs.org）
+DOMAIN-SUFFIX,npmjs.com
+DOMAIN-SUFFIX,npmjs.org
+
+# Node.js 官网、安装包与 node-gyp 头文件下载
+DOMAIN-SUFFIX,nodejs.org
+
+# Yarn 官网、包代理与发行文件
+DOMAIN-SUFFIX,yarnpkg.com
